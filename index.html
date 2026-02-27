@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>School Smart Organizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>📘 School Smart Organizer</h1>
+
+<textarea id="inputText" placeholder="Paste school notes, homework, or data here..."></textarea>
+
+<br>
+
+<button onclick="sortData()">✨ Sort Data</button>
+<button onclick="undoAction()">↩ Undo</button>
+<button onclick="redoAction()">↪ Redo</button>
+<button onclick="clearAll()">🧹 Delete All Data</button>
+
+<h3>Custom Category</h3>
+<input id="customCategory" placeholder="Type custom category name">
+
+<h2>Folders</h2>
+
+<input id="searchBar" placeholder="Search..." oninput="searchData()">
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
